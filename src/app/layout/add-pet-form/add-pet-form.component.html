@@ -1,0 +1,29 @@
+<div class="tiny-dialog">
+    <form [formGroup]="addPetForm" (ngSubmit)="onSubmit()">
+        <label for="id">Id: </label>
+        <input id="id" type="text" formControlName="id">
+        <br>
+
+        <label for="name">Name: </label>
+        <input id="name" type="text" formControlName="name">
+        <br>
+
+        <label for="kind">Kind: </label>
+        <input id="kind" type="text "formControlName="kind">
+        <br>
+
+        <label for="image">Image: </label>
+        <input id="image" type="text" formControlName="image">
+        <br>
+
+        <label for="profileText">Profile Text: </label>
+        <input id="profileText" type="text" formControlName="profileText">
+        <br>
+
+        <label for="popularity">popularity: </label>
+        <input id="popularity" type="text" formControlName="popularity">
+        <br>
+
+        <button type="submit">Add Pet</button>
+    </form>
+</div>
